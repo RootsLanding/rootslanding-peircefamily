@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Memories from The Peirce Family">
+  <title>Our Memories | The Peirce Family</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main>
+    <header class="memories-page-header">
+      <a class="home-link" href="index.html">← The Peirce Family</a>
+      <p class="eyebrow">OUR MEMORIES</p>
+      <h1 class="memories-title">Every moment has a place here.</h1>
+      <p class="memories-copy">Every photograph tells part of our family’s story. RootsLanding gathers those moments into one place to be revisited, shared, and passed from one generation to the next.</p>
+    </header>
+    <nav id="albums" class="albums" aria-label="Photo albums"></nav>
+    <section class="gallery" aria-live="polite">
+      <button id="previous" class="navigation" aria-label="Previous photo">&#8592;</button>
+      <figure>
+        <img id="photo" alt="Family memory">
+        <figcaption><strong id="album-title"></strong><span id="photo-count"></span></figcaption>
+      </figure>
+      <button id="next" class="navigation" aria-label="Next photo">&#8594;</button>
+    </section>
+    <section id="thumbnails" class="thumbnails" aria-label="Photos in this album"></section>
+  </main>
+  <footer>Made with care for generations to come.</footer>
+  <script src="js/photos.js"></script>
+  <script src="js/gallery.js"></script>
+</body>
+</html>
